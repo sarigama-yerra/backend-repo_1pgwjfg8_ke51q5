@@ -1,7 +1,16 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [232] using StatReload
-INFO:     Started server process [234]
+INFO:     Started reloader process [327] using StatReload
+INFO:     Started server process [329]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:53328 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:33112 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:56118 - "GET /api/users/davit HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56118 - "GET /api/users/davit HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56134 - "OPTIONS /api/messages HTTP/1.1" 200 OK
+[SMS] To: +1234567890 | From: aefaefaef | Msg: Frerot viens on va boire un verre...
+INFO:     172.20.0.1:56134 - "POST /api/messages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54380 - "GET /api/messages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54392 - "GET /api/rules HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54380 - "GET /api/messages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54392 - "GET /api/rules HTTP/1.1" 200 OK
